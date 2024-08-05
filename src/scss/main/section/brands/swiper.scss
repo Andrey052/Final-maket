@@ -1,0 +1,30 @@
+.brands-swiper {
+    position: relative;
+    min-width: 288px;
+    max-width: 100%;
+    height: 110px;
+    overflow: hidden;
+    margin: auto;
+    z-index: 0;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+  }
+  
+  .brands__wrapper {
+    padding: 0;
+  }
+
+  .brands__silde {
+    min-width: 240px;
+  }
+  
+  .pagination {
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;
+  
+    --swiper-pagination-color: #B5B6BC;
+    --swiper-pagination-bullet-inactive-color: #96969b;    
+  }
+  

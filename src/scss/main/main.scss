@@ -1,0 +1,44 @@
+@import "section/services/title.scss";
+@import "section/services/services-panel.scss";
+@import "section/services/content-text.scss";
+@import "section/services/content-img.scss";
+
+@import "section/brands/title.scss";
+@import "section/brands/swiper.scss";
+@import "section/brands/list.scss";
+
+@import "section/devices/title.scss";
+@import "section/devices/swiper.scss";
+@import "section/devices/list.scss";
+
+@import "section/price/title.scss";
+@import "section/price/swiper.scss";
+@import "section/price/list.scss";
+@import "section/price/text.scss";
+
+.container {
+  margin: 0 16px;
+
+  @media (min-width: 768px) {
+    margin: 0 24px;
+  }
+
+  @media (min-width: 1020px) {
+    margin: 0 32px;
+  }
+}
+
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 24px 24px 24px;
+  @media (min-width: 1366px) {
+    position: relative;
+    top: -120px;
+    padding: 42px 24px 24px 344px;
+  }
+
+}

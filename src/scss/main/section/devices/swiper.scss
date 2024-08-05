@@ -1,0 +1,21 @@
+.devices-swiper {
+    position: relative;
+    height: 200px;
+    min-width: 288px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    z-index: 0;   
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+  }
+
+  .devices__wrapper {
+    padding: 0;
+  }
+
+  .devices-swiper .pagination {
+    bottom: 6px !important;
+  }
